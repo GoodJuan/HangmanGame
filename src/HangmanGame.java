@@ -204,8 +204,7 @@ public class HangmanGame {
 				triesLeft--;
 				System.out.println("You have " + triesLeft + " tries left!\n");
 				if (triesLeft <= 0){ 
-					System.out.println(hiddenWord);
-					System.out.println("You failed!\n\n");
+					System.out.println("You failed!\nThe hidden word was '" + hiddenWord + "'! \n");
 					tryAgain();
 					
 				}
